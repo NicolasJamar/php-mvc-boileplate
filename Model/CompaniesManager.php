@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Becode\MVCBoilerplate\model;
+namespace Becode\MVCBoilerplate\Model;
 
 require_once('Manager.php');
 
