@@ -11,9 +11,9 @@ MVC is a classic web design pattern consistent of three levels, and is an extens
 - **Views** are files that will mostly contain HTML. Any user facing end result will be made here.
 - **Controllers** are classes responsible to control the handling of a request: they will load the right models and provide them to the correct view.
 
-For now you should create 3 different directories:
+In this template, you have 3 different directories:
 - **Controller/**: has access to GET/POST vars, receives the Request
-- **Model/**: Most of your code should be here, for example the Product and Customer class.
+- **Model/**: The interactions with the database lives here. Your requests should be here, for example the Product and Customer class.
 - **View/**: Your HTML files.
 
 While splitting up the Controller & Model is quite intuitive, splitting up the View from the Controller might require a larger change in how you write code. Let us look at some example:
